@@ -1,5 +1,5 @@
 ### Angular App integrated to Appsyn using Amplify
-![Main Page](/page.png)
+![Main Page](/page.PNG)
 
 #### Features:
       1. Appsync Query using vehicle Id.
