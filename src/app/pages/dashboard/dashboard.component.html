@@ -1,0 +1,40 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container">
+
+  <br>
+  <br>
+  <br>
+
+  <form>
+
+    <div class="form-group">
+      <label>
+        <h4>GraphQL Query</h4>
+      </label>
+      <p>{{vehicleQueryResult}}</p>
+    </div>
+
+    <br>
+
+    <div class="form-group">
+      <label>
+        <h4>GraphQL Subscribed Data</h4>
+      </label>
+      <p>{{vehicleSubscribeResult}}</p>
+    </div>
+
+    <br>
+    
+    <div class="form-group">
+      <label>
+        <h4>GraphQL Unsubscribe</h4>
+      </label>
+      <p>
+        <button class="btn btn-warning my-2 my-sm-0" (click)="unsubscribe()">Unsubscribe</button>
+      </p>
+    </div>
+
+  </form>
+
+</div>
