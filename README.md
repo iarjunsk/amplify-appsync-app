@@ -1,1 +1,1 @@
-# GraphQL Sample App with Cognito Auth
+# Appsync Sample App with Cognito Auth using Amplify
